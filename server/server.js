@@ -7,7 +7,7 @@ const cookieParser = require('cookie-parser');
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:5173', // Adjust this if the frontend port is different
+  origin: 'https://ecoquest-1-0be0.onrender.com', 
   credentials: true
 }));
 app.use(cookieParser());
