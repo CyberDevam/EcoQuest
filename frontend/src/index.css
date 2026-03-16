@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Custom theme variables */
+@theme {
+  --color-primary: #16a34a; /* Green 600 */
+  --color-secondary: #10b981; /* Emerald 500 */
+  --color-accent: #facc15; /* Yellow 400 */
+  --color-background: #f9fafb; /* Gray 50 */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: #1f2937;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
