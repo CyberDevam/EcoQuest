@@ -7,7 +7,7 @@ const cookieParser = require('cookie-parser');
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: 'https://ecoquest-1-0be0.onrender.com', 
+  origin: '*', 
   credentials: true
 }));
 app.use(cookieParser());
